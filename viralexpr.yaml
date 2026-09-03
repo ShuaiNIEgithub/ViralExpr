@@ -1,0 +1,18 @@
+name: viralexpr
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pandas>=1.5
+  - numpy>=1.23
+  - matplotlib>=3.6
+  - seaborn>=0.12
+  - scipy>=1.9
+  - hisat2>=2.2.1
+  - samtools>=1.16
+  - subread>=2.0.6
+  - fastp>=0.23
+  - setuptools
